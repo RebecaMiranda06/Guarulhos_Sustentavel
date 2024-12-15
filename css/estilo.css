@@ -1,0 +1,332 @@
+*{ margin:0;
+padding:0;
+
+}
+
+body{
+    background-color:#d7d4d4;
+}
+.imagemmenu{
+    width: 100%;  
+    height: auto;  
+}
+
+#menu{
+    background-color:rgba(253, 252, 252, 0.959);
+    height: 160px;
+    text-align: center;
+    display:flexbox;
+}
+
+h1{
+    padding-top: 2.5%;
+    font-size: 4em;
+    color: rgb(76, 132, 180);
+}
+
+#navegacao{
+    background-color:rgb(148, 186, 220);
+    height: 70px;
+}
+
+.links{
+    
+    margin: 8%;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+}
+
+a:hover{
+    color:rgb(255, 255, 255);
+    background-color:rgb(76, 132, 180) ;
+  
+}
+
+.descricaoimgs{
+    float: right;
+    padding-right: 2%;
+    color: rgb(114, 114, 114);
+}
+
+h2{
+    padding-top: 10%;
+    padding-left: 10%;
+    font-size: 2.5em;
+    color: rgb(64, 127, 182);
+    float: left;
+}
+
+#apresentacao{
+    margin-bottom: 5%;
+    padding-right: 10%;
+    float: right;
+    margin-top: 8.7%;
+    font-size: 1.2em;
+}
+
+.depoimento{
+  
+   float: left;
+   font-size: 1.02em; 
+   width: 300px;
+   box-shadow: rgb(1, 46, 85) 0 2px 10px;
+   margin-left: 4.5%;
+   margin-top: 7%;
+   padding: 15px;
+    background-color:#d7d4d4;
+    
+   
+}
+
+h3{
+    float: right;
+    margin-right: 7%;
+    margin-top: 10%;
+    color: rgb(76, 132, 180);
+    font-size: 2.5em;
+    margin-bottom: 2%;
+   
+}
+
+.opiniao{
+    background-color:rgba(253, 252, 252, 0.959);
+    min-height: 600px;  
+    padding: 20px;  
+    clear: both; 
+}
+
+.titulonoticia{
+    font-size: 15em;
+    color: rgb(76, 132, 180);
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 13%;
+    text-shadow: #3d3c3c 1px 1px 3px;
+   border-bottom: solid 1px rgb(76, 132, 180);
+   text-align: center;
+   
+}
+
+#txtentulho{
+    font-size: 1.2em;
+    margin-top: 7.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+   
+}
+
+
+.graficos{
+    width:500px;
+    height: auto;
+    margin-bottom: 8%;
+    padding-top: 5%;
+   
+}
+
+#noticia1{
+  float: right;
+  width: 400px;
+  margin-top:18%;
+  margin-right: 13%;
+}
+
+#noticia2{
+    float: left;
+    width: 400px;
+    margin-top:21%;
+    margin-left: 10%;
+    margin-right: 3%;
+  }
+
+  #noticia3{
+    float: right;
+    width: 400px;
+    margin-top:30%;
+    margin-right: 18%;
+    font-size: 1.35em;
+    
+  }
+
+#fotocarro{
+    width: 300px;
+    height: auto;
+    margin: 7%;
+}
+
+#pagnoticias{
+    background-color:rgba(253, 252, 252, 0.959);
+    padding: 8%;
+    
+    
+}
+
+
+.imgent{
+    margin-top: 5%;
+    clear: both;
+    width: 100%;  
+    height: auto;  
+   
+}
+
+h5{
+    font-size: 3em;
+    margin-top: 12%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 5%;
+    text-align: center;
+    color: rgb(76, 132, 180);
+    background-color:rgba(253, 252, 252, 0.959);
+}
+
+article{
+    font-size: 1.2em;
+    
+    
+   
+}
+
+h6{
+    font-size: 5em;
+    background-color:rgba(253, 252, 252, 0.959);
+    height: 120px;
+    text-align: center;
+    color: rgb(76, 132, 180);
+    margin-top: 17%;
+    padding-top: 3.5%;
+}
+
+.txtservicos{
+    font-size: 1.2em;
+    margin-top: 9%;
+    margin-left: 14%;
+    margin-right: 14%;
+    float: left;
+   width: 900px;
+   
+}
+
+.titulosservicos{
+    margin:2%;
+    font-size: 2.2em;
+    font-weight: bold;
+
+}
+
+footer, fieldset{
+    /*margin: 8% 2.5% ;*/
+    margin-top: 8%;
+    background-color: rgb(76, 132, 180);
+    opacity: 0.7;
+    padding: 3%;
+    
+}
+
+.rodape{
+    float: right;
+min-height: 400px;
+margin-right: 4%;
+}
+
+footer{
+    min-height: 150px;
+    margin-top: 112%;
+    font-weight: bold;
+    font-size:1.5em;
+    padding-left: 4%;
+    bottom:0;
+    
+}
+
+fieldset{
+    width: 420px;
+   height: 300px;
+    padding: 3%;
+    font-size: 1.2em;
+    margin-left:10%;
+    padding-top: 5%;
+    box-shadow: rgb(1, 46, 85) 0 2px 10px;
+    font-weight: bold;
+    float: left;
+    margin-top: 13.5%;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: #3d3c3c 1px 1px 3px;
+
+}
+
+.servico{
+    background-color:rgba(253, 252, 252, 0.959);
+    min-height: 300px;  
+    min-width: max-content;
+    padding: 20px;  
+}
+
+.imgsservicos{
+    float:right;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.textosserv{
+  width: 700px;
+margin-top: 8%;
+}
+
+.contato{
+    float: right;
+    margin-right: 10%;
+    margin-top: 14%;
+    box-shadow: rgb(1, 46, 85) 0 2px 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#logogs{
+   border: solid 2px rgb(76, 132, 180); 
+   margin-right: 11%;
+   margin-bottom: 15%;
+   
+}
+
+.tituloredes{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.icons{
+    margin-top: 5%;
+}
+
+.botoes:hover{
+    background-color: #b4b4b4;
+    color: rgb(1, 46, 85) ;
+}
+
+#margem{
+    margin-bottom: 20%;
+}
+
+.textinho{
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.imgcoleta{
+    margin:0;
+    padding: 0;
+}
+
+.linkstitulos:hover {
+    color: rgb(76, 132, 180);
+    text-decoration: none;
+    background-color: transparent; /* Garante que não haverá fundo */
+}
